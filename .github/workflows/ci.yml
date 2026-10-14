@@ -8,8 +8,8 @@ jobs:
   saludo:
     runs-on: ubuntu-latest
     steps:
-      name: Descargar el código
-      uses: actions/checkout@v4
+      - name: Descargar el código
+        uses: actions/checkout@v4
 
-      name: Saludar
-      run: echo "Hola desde GitHub Actions"
+      - name: Saludar
+        run: echo "Hola desde GitHub Actions"
